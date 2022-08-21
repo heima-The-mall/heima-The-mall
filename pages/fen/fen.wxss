@@ -1,0 +1,54 @@
+/* pages/fen/fen.wxss */
+page{
+  position: relative;
+}
+.fix{
+  height: 100rpx;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.all{
+  width: 100%;
+  overflow: hidden;
+  /* margin-top: 100rpx; */
+  position: absolute;
+  top: 100rpx;
+  left: 0;
+}
+
+.it-l{
+  width: 30vw;
+  /* background: #ccc; */
+  height: 100vh;
+  float: left;
+}
+.l-ul{
+  width: 30vw;
+}
+.l-li{
+  width: 100%;
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+  display: block;
+  /* border-bottom: solid 1px grey; */
+}
+.active{
+  /* background: rgb(224, 218, 218); */
+  color: red;
+  border-left: 3px solid red;
+}
+.scroll{
+  height: 100vh;
+  background: pink;
+  /* margin-top: 80rpx; */
+}
+.it-r{
+  width: 70vw;
+  background:white;
+  height: 100vh;
+  float: right;
+}

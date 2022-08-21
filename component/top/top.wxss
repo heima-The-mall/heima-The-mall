@@ -1,0 +1,15 @@
+/* component/top/top.wxss */
+.top{
+  background: #a30808;
+  width: 100%;
+  height: 100rpx;
+}
+.inp{
+  background: #fff;
+  width: 90%;
+  text-align: center;
+  margin-left: 40rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 20rpx;
+}

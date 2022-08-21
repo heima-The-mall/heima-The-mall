@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<c-top></c-top>
+<swiper indicator-dots circular autoplay class="swiper">
+<block wx:for="{{SW}}" wx:key="*this">
+  <swiper-item>
+     <image src='{{item.image_src}}'></image>
+  </swiper-item>
+</block>
+</swiper>
+<view class='mid'>
+<block wx:for="{{FE}}" wx:key="*this"> 
+  <view class='one'>
+      <image mode='widthFix' class='nav-img' src='{{item.image_src}}' bind:tap='onToFen'></image >
+      <!-- <text>{{item.name}}</text> -->
+  </view>
+</block>
+</view>
+
+<view class='fot'>
+<block wx:for="{{ID}}" wx:key="*this">
+  <c-nav data1="{{item.floor_title}}" prodata="{{item.product_list}}" ></c-nav>
+</block>
+</view>
+

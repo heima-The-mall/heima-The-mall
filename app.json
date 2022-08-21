@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/fen/fen"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#a30808",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "黑驴商城"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#eb3d3d",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/tabImg/home.png",
+      "selectedIconPath": "/tabImg/home-selected.png"
+    },
+    {
+      "pagePath": "pages/fen/fen",
+      "text": "分类",
+      "iconPath": "/tabImg/category.png",
+      "selectedIconPath": "/tabImg/category-selected.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

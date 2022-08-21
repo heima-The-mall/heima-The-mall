@@ -1,0 +1,15 @@
+<!--component/scroll-right/scroll-right.wxml-->
+<view class='all' wx:for="{{list}}" wx:key="*this" >
+  <view class='tit'>/ <text class="text">{{item.cat_name}}</text> /</view>
+  <view class='con'>
+  <block wx:for="{{item.children}}" wx:key="*this">
+     <view class='one' bind:tap='onToDetial' mark:id="{{cat_id}}">
+                  <image src='{{item.cat_icon}}' class='o-img' mode="widthFix"></image>
+                  <text>{{item.cat_name}}</text>
+                </view>   
+       
+    </block>
+  </view>
+
+
+</view>

@@ -1,0 +1,17 @@
+<!--pages/fen/fen.wxml-->
+<c-top class='fix'></c-top>
+<view class='all'>
+  <scroll-view scroll-y class='it-l'>
+    <ul class='l-ul'>
+      <block wx:for='{{ToFen}}' wx:key='id'>
+        <li class="l-li {{curId==index?'active':''}}" bind:tap='getId' mark:index='{{index}}' mark:id='{{item.cat_id}}'>
+          {{item.cat_name}}
+        </li>
+      </block>
+    </ul>
+  </scroll-view>
+
+  <scroll-view class='it-r scroll' scroll-y scroll-with-animation >
+      <c-s-right list="{{typeList.children}}"></c-s-right>   
+  </scroll-view>
+</view>

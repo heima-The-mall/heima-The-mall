@@ -1,0 +1,17 @@
+<!--component/index-nav/index-nav.wxml-->
+<view class='all' bind:tap='onto'>
+  <view class='tit' >
+  <!-- <view>{{data1.name}}</view> -->
+  <image src="{{data1.image_src}}" class='tit-img'></image>
+  </view>
+  <view class='content'>
+     <view class='c-left'>
+         <image src='{{arr1.image_src}}' mode="aspectFill" class='l-img'></image>
+     </view>
+     <view class='c-right'>
+       <block wx:for="{{arr2}}" wx:key="*this">
+          <image src='{{item.image_src}}' class='r-img'></image>
+       </block>
+     </view>
+  </view>
+</view>

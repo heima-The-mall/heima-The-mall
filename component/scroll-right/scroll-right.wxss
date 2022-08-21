@@ -1,0 +1,33 @@
+/* component/scroll-right/scroll-right.wxss */
+.all{
+  width: 100%;
+
+}
+.tit{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #000;
+  margin-bottom: 20rpx;
+}
+.text{
+  color: #ccc;
+}
+.con{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.one{
+  width: 25%;
+  height: 25%;
+  text-align: center;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.o-img{
+  width: 100%;
+  height: 100%;
+}

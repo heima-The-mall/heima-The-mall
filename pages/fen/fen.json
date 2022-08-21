@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "c-top":"../../component/top/top",
+    "c-s-right":"../../component/scroll-right/scroll-right"
+  }
+}

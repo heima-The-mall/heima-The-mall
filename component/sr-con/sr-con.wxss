@@ -1,0 +1,6 @@
+/* component/sr-con/sr-con.wxss */
+.con{
+  width: 500rpx;
+  background: pink;
+  
+}

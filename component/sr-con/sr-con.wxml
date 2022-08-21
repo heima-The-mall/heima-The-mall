@@ -1,0 +1,13 @@
+<!--component/sr-con/sr-con.wxml-->
+<view class='all'>
+<view class='tit-t'>/电脑山城/</view>
+<view>
+   <view class="con">
+      <image src=''></image>
+      <text>11111</text>
+      <text>222222</text>
+      <text>水水水水</text>
+   </view>
+</view>
+</view>
+

@@ -1,0 +1,4 @@
+<!--component/top/top.wxml-->
+<view class='top'>
+   <input type="text" class='inp' placeholder="搜索" />
+</view>
